@@ -4,3 +4,7 @@ SELECT * FROM products;
 
 --Select just the name and price of every product.
 SELECT product_name , price FROM products;
+
+--List all products, ordered by their price from cheapest to most expensive.
+SELECT * FROM products
+ORDER BY price DESC;
