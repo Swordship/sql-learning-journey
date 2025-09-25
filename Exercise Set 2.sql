@@ -14,3 +14,7 @@ WHERE in_stock = 'false';
 --Find all products that have a stock quantity less than 50.
 SELECT * FROM products
 WHERE stock_quantity < 50;
+
+--Find the name and price of all products that cost more than $100.
+SELECT product_name ,price FROM products
+WHERE price > 100.00;
