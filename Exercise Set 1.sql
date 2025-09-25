@@ -13,3 +13,6 @@ ORDER BY price ASC;
 SELECT * FROM products 
 ORDER BY added_date DESC;
 
+--Select the names and categories of all products, ordered by category alphabetically.
+SELECT product_name , category FROM products 
+ORDER BY category ;
