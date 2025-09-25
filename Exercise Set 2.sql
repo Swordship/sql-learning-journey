@@ -10,3 +10,7 @@ WHERE category = 'Electronics';
 --Find all products that are not in stock (in_stock is FALSE).
 SELECT * FROM products
 WHERE in_stock = 'false';
+
+--Find all products that have a stock quantity less than 50.
+SELECT * FROM products
+WHERE stock_quantity < 50;
