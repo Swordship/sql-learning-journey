@@ -18,3 +18,11 @@ WHERE price BETWEEN 50.00 AND 150.00;
 --Find all products whose name starts with 'Smart'. (Hint: Use LIKE and %).
 SELECT * FROM products
 WHERE product_name LIKE 'S%';
+
+--Find all products whose name contains the word 'Mouse'.
+SELECT * FROM products 
+WHERE product_name LIKE '%Mouse%';
+
+--Find all products that are NOT in the 'Electronics' category.
+SELECT * FROM products
+WHERE category NOT IN ('Electronics');
