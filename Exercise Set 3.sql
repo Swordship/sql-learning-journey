@@ -10,3 +10,7 @@ WHERE category = 'Home Goods' OR category = 'Furniture';
 --Find all products that are in the 'Accessories' category using the IN keyword.
 SELECT * FROM products
 WHERE category IN ('Accessories') ;
+
+--Find all products with a price between $50 and $150.
+SELECT * FROM products
+WHERE price BETWEEN 50.00 AND 150.00;
