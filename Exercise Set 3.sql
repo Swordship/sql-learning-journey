@@ -6,3 +6,7 @@ WHERE category = 'Electronics' AND price < 1000.00;
 --Find all products that are in the 'Home Goods' category OR the 'Furniture' category.
 SELECT * FROM products
 WHERE category = 'Home Goods' OR category = 'Furniture';
+
+--Find all products that are in the 'Accessories' category using the IN keyword.
+SELECT * FROM products
+WHERE category IN ('Accessories') ;
